@@ -1,0 +1,52 @@
+{
+	"name": "test-tube",
+	"version": "0.0.0",
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kinematic-lab/test-tube.git"
+	},
+	"workspaces": [
+		"packages/*"
+	],
+	"author": {
+		"name": "Aske Kjøller Lange",
+		"email": "ala@limbo.works"
+	},
+	"engines": {
+		"node": ">=20.0.0 <21.0.0",
+		"pnpm": ">=8.0.0 <9.0.0"
+	},
+	"scripts": {
+		"new": "pnpm plop && pnpm install && pnpm run lint",
+		"prepare": "husky install",
+		"build": "pnpm run turbo:build",
+		"dev": "pnpm run turbo:dev",
+		"lint": "prettier --write --list-different . && eslint --ext \".js,.vue\" . && pnpm run turbo:lint",
+		"test": "pnpm run turbo:test",
+		"turbo:build": "turbo run build",
+		"turbo:dev": "turbo run dev --parallel",
+		"turbo:lint": "turbo run lint",
+		"turbo:test": "turbo run test",
+		"changeset:create": "pnpm changeset",
+		"changeset:create-empty": "pnpm changeset --empty",
+		"changeset:version": "pnpm changeset version"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.26.2",
+		"@commitlint/config-conventional": "^17.8.1",
+		"@kinematic-lab/eslint-config-typescript": "*",
+		"@typescript-eslint/eslint-plugin": "^5.62.0",
+		"@typescript-eslint/parser": "^5.62.0",
+		"commitlint": "^17.8.1",
+		"eslint": "^8.53.0",
+		"eslint-config-prettier": "^8.10.0",
+		"eslint-plugin-vue": "^9.18.1",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.3.0",
+		"plop": "^3.1.2",
+		"prettier": "^2.8.8",
+		"turbo": "latest",
+		"typescript": "^5.2.2"
+	}
+}

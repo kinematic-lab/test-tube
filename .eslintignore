@@ -1,0 +1,13 @@
+node_modules
+dist
+.turbo
+.nuxt
+.output
+
+/apps/**/public
+plop/templates
+
+sw.js
+*.min.js
+.eslintcache
+pnpm-lock.yaml
