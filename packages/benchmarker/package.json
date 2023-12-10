@@ -1,0 +1,43 @@
+{
+	"name": "benchmarker",
+	"version": "0.0.1",
+	"license": "MIT",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.mjs",
+			"require": "./dist/module.js"
+		}
+	},
+	"main": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kinematic-lab/test-tube.git",
+		"directory": "packages/core"
+	},
+	"scripts": {
+		"lint": "prettier --write --list-different . && eslint --ext \".ts,.vue\" . --fix",
+		"test": "jest",
+		"build": "tsup"
+	},
+	"devDependencies": {
+		"@kinematic-lab/eslint-config-typescript": "^0.1.0",
+		"@kinematic-lab/typescript-config": "^0.1.1",
+		"@types/jest": "^29.5.1",
+		"@types/node": "^20.4.2",
+		"eslint": "^8.45.0",
+		"jest": "^29.5.0",
+		"prettier": "^2.7.1",
+		"ts-jest": "^29.1.0",
+		"tsup": "^6.7.0",
+		"typescript": "^5.1.6"
+	},
+	"dependencies": {
+		"@kinematic-lab/core": "^0.2.2",
+		"consola": "^3.2.3"
+	}
+}

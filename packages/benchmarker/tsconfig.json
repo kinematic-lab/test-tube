@@ -1,0 +1,4 @@
+{
+	"extends": "@kinematic-lab/typescript-config/core.json",
+	"include": ["./src"]
+}
