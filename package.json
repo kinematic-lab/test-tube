@@ -26,7 +26,6 @@
 		"turbo:build": "turbo run build",
 		"turbo:dev": "turbo run dev --parallel",
 		"turbo:lint": "turbo run lint",
-		"turbo:test": "turbo run test",
 		"changeset:create": "pnpm changeset",
 		"changeset:create-empty": "pnpm changeset --empty",
 		"changeset:version": "pnpm changeset version"
