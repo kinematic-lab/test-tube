@@ -7,13 +7,13 @@
 <br />
 
 A testing ground for packages or functionality which may be implemented in `kinematic-lab`.<br />
-Theres no wrong answers here, write fast, get your idea out here.
+Theres no wrong answers here, write fast, get your random ideas out here.
 
 <br />
 
 ## Table of contents <!-- omit in toc -->
 
-- [Contributing](#contributing)
+-   [Contributing](#contributing)
 
 <br />
 
