@@ -12,8 +12,8 @@ importers:
         specifier: ^2.26.2
         version: 2.26.2
       '@commitlint/config-conventional':
-        specifier: ^17.8.1
-        version: 17.8.1
+        specifier: ^18.6.0
+        version: 18.6.0
       '@kinematic-lab/eslint-config-typescript':
         specifier: '*'
         version: 0.1.0(typescript@5.2.2)
@@ -322,11 +322,11 @@ packages:
       - '@swc/wasm'
     dev: true
 
-  /@commitlint/config-conventional@17.8.1:
-    resolution: {integrity: sha512-NxCOHx1kgneig3VLauWJcDWS40DVjg7nKOpBEEK9E5fjJpQqLCilcnKkIIjdBH98kEO1q3NpE5NSrZ2kl/QGJg==}
-    engines: {node: '>=v14'}
+  /@commitlint/config-conventional@18.6.0:
+    resolution: {integrity: sha512-CDCOf2eJz9D/TL44IBks0stM9TmdLCNE2B48owIU3YCadwzts/bobXPScagIgPQF6hhKYMEdj5zpUDlmbwuqwQ==}
+    engines: {node: '>=v18'}
     dependencies:
-      conventional-changelog-conventionalcommits: 6.1.0
+      conventional-changelog-conventionalcommits: 7.0.2
     dev: true
 
   /@commitlint/config-validator@17.8.1:
@@ -773,7 +773,7 @@ packages:
       '@typescript-eslint/parser': 5.62.0(eslint@8.53.0)(typescript@5.2.2)
       eslint: 8.53.0
       eslint-config-prettier: 8.10.0(eslint@8.53.0)
-      eslint-config-turbo: 1.11.1(eslint@8.53.0)
+      eslint-config-turbo: 1.11.3(eslint@8.53.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -1416,9 +1416,9 @@ packages:
       compare-func: 2.0.0
     dev: true
 
-  /conventional-changelog-conventionalcommits@6.1.0:
-    resolution: {integrity: sha512-3cS3GEtR78zTfMzk0AizXKKIdN4OvSh7ibNz6/DPbhWWQu7LqE/8+/GqSodV+sywUR2gpJAdP/1JFf4XtN7Zpw==}
-    engines: {node: '>=14'}
+  /conventional-changelog-conventionalcommits@7.0.2:
+    resolution: {integrity: sha512-NKXYmMR/Hr1DevQegFB4MwfM5Vv0m4UIxKZTTYuD98lpTknaZlSRrDOG4X7wIXpGkfsYxZTghUN+Qq+T0YQI7w==}
+    engines: {node: '>=16'}
     dependencies:
       compare-func: 2.0.0
     dev: true
@@ -1757,17 +1757,17 @@ packages:
       eslint: 8.53.0
     dev: true
 
-  /eslint-config-turbo@1.11.1(eslint@8.53.0):
-    resolution: {integrity: sha512-F0w5nusZ3SMSXS+ns/f0GLiRmLyP0+20Nd1xPgRXxJSW3UCsurysuqfCjo4VwSIVK2mfkDSdrn6/+JxV3WZgiw==}
+  /eslint-config-turbo@1.11.3(eslint@8.53.0):
+    resolution: {integrity: sha512-v7CHpAHodBKlj+r+R3B2DJlZbCjpZLnK7gO/vCRk/Lc+tlD/f04wM6rmHlerevOlchtmwARilRLBnmzNLffTyQ==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
       eslint: 8.53.0
-      eslint-plugin-turbo: 1.11.1(eslint@8.53.0)
+      eslint-plugin-turbo: 1.11.3(eslint@8.53.0)
     dev: true
 
-  /eslint-plugin-turbo@1.11.1(eslint@8.53.0):
-    resolution: {integrity: sha512-QegEzLp9CIsDVQOSSjvEl6QUUGpb7Hj9IdFdgz7OHBYzhCArY5z+Q3y+LO6jn1MSkzGUteGNjLhrlkjXadePCA==}
+  /eslint-plugin-turbo@1.11.3(eslint@8.53.0):
+    resolution: {integrity: sha512-R5ftTTWQzEYaKzF5g6m/MInCU8pIN+2TLL+S50AYBr1enwUovdZmnZ1HDwFMaxIjJ8x5ah+jvAzql5IJE9VWaA==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
